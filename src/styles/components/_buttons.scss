@@ -11,6 +11,10 @@
     &--primary {
         color: variables.$textColor;
         background-color: variables.$purple;
+
+        &:hover {
+            background-color: lighten(variables.$purple, 5%);
+        }
     }
 
     @media (max-width: 640px) {
